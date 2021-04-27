@@ -10,6 +10,7 @@ This branch of our research group has focused on modeling the physiology in card
 
 ### Cardiac Research 
 
+![Fig1](/pages/Figures/fig1.png)
 - Figure 1: from physiology to mechanical properties of cardiac myocytes and sacromeres ([Source](https://www.cvphysiology.com/Cardiac%20Function/CF020#:~:text=The%20cardiac%20myocyte%20is%20a,contain%20myofilaments%20(Figure%201).))
 
 For instance, the heartbeat we refer to in real life is the combination of thousands of chemical reactions or interactions among proteins in muscle tissue. 
@@ -22,6 +23,7 @@ For more detail, please [check out](https://www.sciencedirect.com/science/articl
 
 ### Modeling Immune Response of Microglia/Macrophage
 
+![Fig2](/pages/Figures/fig2.png)
 - Figure 2: from cell biology to immune activity of microglia/macrophages
 
 Microglia/macrophages are critical immune cells in our body. Our microglia research is based on how they respond to the broad range of damage, including physical injury or damage by disease (pathogen-associated molecular patterns, PAMPs, or damage-associated molecular patterns, DAMPs). 
