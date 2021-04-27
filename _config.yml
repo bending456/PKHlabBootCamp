@@ -1,0 +1,15 @@
+remote_theme: pmarsceill/just-the-docs
+
+# Auxiliary links for the upper right hand corner
+aux_links:
+  "Colaboratory Link":
+  - "https://colab.research.google.com/notebooks/intro.ipynb"
+  "PKH lab Wiki page":
+  - "https://wiki.luc.edu/spaces/viewspace.action?key=PKHLAB"
+  "PKH lab Homepage":
+  - "https://pkhlab.sites.luc.edu/"
+  "Dept. Homepage":
+  - https://ssom.luc.edu/physio/
+
+title: "Python Boot Camp"
+theme: jekyll-theme-cayman
