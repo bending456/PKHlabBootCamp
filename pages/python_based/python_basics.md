@@ -3,6 +3,7 @@ title: 1. Python Basics
 nav_order: 1
 parent: Python-based Computation Tools
 ---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 ## Python Basic
 
 The following link is created in Notebooks.ai that was one of the most convenient cloud-based python user interface... but I think they got shut down for some reason. Though, you can still read the lecture note linked below.
