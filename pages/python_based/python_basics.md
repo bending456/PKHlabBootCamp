@@ -1,5 +1,5 @@
 ---
-title: Python Basics
+title: 1. Python Basics
 nav_order: 1
 parent: Python-based Computation Tools
 ---

@@ -1,9 +1,10 @@
 ---
-title: Important Concepts
+title: 2. Important Concepts
 nav_order: 2
 parent: Python-based Computation Tools
 useMath: true
 ---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## Math associated with Physiology 
 
@@ -32,11 +33,14 @@ In English, we describe the first-order chemical reaction as A becomes B.
 
 In a chemical equation, we write it as:
 
-![chem eqn1](/pages/python_based/concept_related/fig3.png)
+![chem eqn1](/pages/python_based/concept_related/chemeqn1.png)
 
 Then, the corresponding mathematical equation for time-dependent change in concentration A is:
 
-![math eqn1](http://www.sciweavers.org/tex2img.php?eq=Rate%20%3D%20%20%5Cfrac%7B%20%5CDelta%20%5BA%5D%7D%7B%20%5CDelta%20t%7D%20%3D%20-%20k_f%20%5BA%5D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+$$
+Rate_A = \frac{\Delta A}{\Delta t} = -k_f A
+$$
+
 
 Using this equation, we can figure out the rate of reaction at a given time as long as the concentration of content A is known. 
 You probably notice that there is a **negative** sign in front of rate constant, which expresses the consumption of content A as a result of reaction. 
@@ -45,13 +49,15 @@ This is very important thing to remember for ***Modeling*** aspect.
 
 What about slightly more complicated chemical reaction where two chemicals involve?
 
-![chem eqn2](/pages/python_based/concept_related/fig4.png)
+![chem eqn2](/pages/python_based/concept_related/chemeqn2.png)
 
 Because there are two arrows to reactant and product sides, we learn this reaction as a reversible reaction at a forward rate of k<sub>f</sub> and backward reaction rate of k<sub>b</sub>.
 
 The corresponding mathematical expression for time-dependent change in each chemical becomes no longer as simple as the first example. 
 
-![math eqn2](http://www.sciweavers.org/tex2img.php?eq=Rate_A%20%3D%20%20%5Cfrac%7B%20%5CDelta%20%5BA%5D%7D%7B%20%5CDelta%20t%7D%20%3D%20-%20k_f%20%5BA%5D%5BB%5D%20%2B%20k_b%20%5BC%5D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+$$
+Rate_A = \frac{\Delta A}{\Delta t} = -k_f A B + k_b C
+$$
 
 The real challenge for both occasions is to determine the rate outside of steady-state since it is required to know the concentration of content at a given time, which we usually don't have. 
 
@@ -63,7 +69,9 @@ Although it may take convoluted steps to solve, the ordinary differential equati
 
 The change of concentration A over a given time interval can be re-expressed as dy/dt under the condition of an infinitely small time frame. 
 
-![math eqn3](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B%5CDelta%20%5BA%5D%7D%7B%5CDelta%20t%7D%20%20%5Clongrightarrow%20%20%5Cfrac%7Bd%5BA%5D%7D%7Bdt%7D%20%3D%20-k_f%20%5BA%5D%5BB%5D%20%2Bk_b%20%5BC%5D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+$$
+Rate_A = \frac{\Delta A}{\Delta t} \longrightarrow \frac{d A}{d t} = -k_f A B + k_b C
+$$
 
 To predict the concentration of a given chemical, we need to understand the boundary condition of this ordinary differential equation, such as the initial value (at t=0) or the steady-state value (usually at t >>>>>>0). 
 "Initial" and "steady-state" are somewhat relative terms. The steady-state condition is typically used as our initial input for solving ordinary differential equations. 
