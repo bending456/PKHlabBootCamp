@@ -33,7 +33,7 @@ In English, we describe the first-order chemical reaction as A becomes B.
 
 In a chemical equation, we write it as:
 
-![chem eqn1](/pages/python_based/concept_related/chemeqn1.png)
+![chem eqn1](concept_related/chemeqn1.png)
 
 Then, the corresponding mathematical equation for time-dependent change in concentration A is:
 
@@ -49,7 +49,7 @@ This is very important thing to remember for ***Modeling*** aspect.
 
 What about slightly more complicated chemical reaction where two chemicals involve?
 
-![chem eqn2](/pages/python_based/concept_related/chemeqn2.png)
+![chem eqn2](concept_related/chemeqn2.png)
 
 Because there are two arrows to reactant and product sides, we learn this reaction as a reversible reaction at a forward rate of k<sub>f</sub> and backward reaction rate of k<sub>b</sub>.
 
