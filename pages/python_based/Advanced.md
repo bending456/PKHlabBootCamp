@@ -2,7 +2,6 @@
 title: 4. Advanced Modeling Scheme
 nav_order: 4
 parent: Python-based Computation Tools
-useMath: true
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 

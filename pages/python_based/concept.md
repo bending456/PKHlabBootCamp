@@ -2,7 +2,6 @@
 title: 2. Important Concepts
 nav_order: 2
 parent: Python-based Computation Tools
-useMath: true
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
